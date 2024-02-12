@@ -2,7 +2,7 @@
 <html data-theme="light">
 
 <head>
-    <title>DriveBot 🤖</title>
+    <title>Bot 🤖</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,25 +12,17 @@
 </head>
 
 <body>
-    <h4>Record and Playback</h4>
-    <button class="record">record</button>
-    <button class="stop" disabled>Stop</button><span id="timer" >00:00</span>
-    <br>
-    <br>
-    <section class="sound-clips">
+    <h4>Control Interface</h4>
+    <main class="container">
+            <a href="/drive.html"><button >Driving robot</button></a><br>
+            <a href="/2motor.html"><button >Two Motors</button></a><br>
+            <a href="/tilty.html"><button >Tilty Bot 🤖</button></a><br>
+            <a href="/sound.html"><button class="secondary" >Audio</button></a><br>
+</div>
 
-
-    </section>
-
-</body>
-<script type="text/javascript" src="/sound.js"></script>
 <style>
-    .recording {
-        background-color: red;
-        color: black;
-    }
-    #timer{
-        margin-left: 2em;
-        line-height: 34px;
+    button{
+        width: 85vw;
+        margin-bottom: 15px;
     }
 </style>
