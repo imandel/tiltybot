@@ -1,3 +1,3 @@
 
-const char *ssid = "deviceFarm";
-const char *password = "device@theFarm";
+const char *ssid = "YOURGROUPNAME";
+const char *password = "";

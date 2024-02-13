@@ -41,7 +41,7 @@ void setup()
     SSLCert *cert = initLittleFS();
 
     // Connect to WiFi
-    initWiFi(ssid, password, INDEX_PAGE, LOCAL);
+    initWiFi(ssid, password, INDEX_PAGE, AP);
 
     // Create the server with the certificate we loaded before
     secureServer = initServer(cert);
